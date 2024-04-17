@@ -2,7 +2,7 @@
     <div class="container">
         <div class="service__inner">
 
-            <h2>Какие услуги мы оказываем</h2>
+            <h1>Какие услуги мы оказываем</h1>
 
             <div class="kindofcranes__filter">
                 <div class="kindofcranes__filter-item active">

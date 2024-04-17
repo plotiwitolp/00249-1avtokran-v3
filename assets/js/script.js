@@ -27,6 +27,12 @@
             slidesToShow: 3,
           },
         },
+        {
+          breakpoint: 351,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
       ],
     });
     // end
@@ -159,7 +165,19 @@
       if (slickInitKindofcranes) {
         $('.kindofcranes__list').slick('setPosition');
       }
+
+      disableSlick('.home .forrent__list');
     });
+    // end
+    // start
+    function disableSlick(el) {
+      $(el).each(function () {
+        if ($(this).hasClass('slick-initialized')) {
+          $(this).slick('unslick');
+        }
+      });
+    }
+    disableSlick('.home .forrent__list');
     // end
     // END document ready
   });

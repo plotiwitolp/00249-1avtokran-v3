@@ -352,6 +352,15 @@ h1 {
   font-size: 52px;
   font-weight: 700;
   line-height: 52px;
+  margin-bottom: 50px;
+}
+
+.top h1 {
+  margin-bottom: 0;
+}
+
+.rentalprices {
+  margin-top: 50px;
 }
 
 .top__discount {
@@ -919,8 +928,9 @@ h4.kindofcranes__item-title {
 }
 
 .trustus__slider,
-.featuresofserv__slider {
-  max-width: 470px;
+.featuresofserv__slider,
+.featuresofserv__list {
+  width: 470px;
   max-height: 380px;
 }
 
@@ -954,6 +964,9 @@ h4.kindofcranes__item-title {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .trustus__first {
@@ -1859,6 +1872,10 @@ h1 {
   max-width: 600px;
 }
 
+.featuresofserv__first {
+  max-width: 670px;
+}
+
 .trustus__second {
   width: 100%;
 }
@@ -1934,6 +1951,90 @@ h1 {
 }
 
 .service2 {
+  margin-top: 50px;
+}
+
+.home .forrent__list {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.home .forrent__slider-prev,
+.home .forrent__slider-next {
+  display: none;
+}
+
+.home .forrent__slider {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.featuresofserv__item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.rentalprices__table {
+  border: 0;
+  border-collapse: collapse;
+}
+
+.rentalprices__table th {
+  background-color: #1a1f22;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  padding: 20px 30px;
+}
+
+.rentalprices__table td {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.rentalprices__table tbody tr {
+  border: 1px solid #e3e9ee;
+}
+
+.rentalprices__table tbody tr:nth-child(even) {
+  background-color: #f4f6f8;
+}
+
+.rentalprices__table td:first-child {
+  padding: 20px 15px;
+  text-align: left;
+}
+
+.rentalprices__table td:last-child {
+  padding: 20px 25px;
+}
+
+.rentalprices__table th:last-child {
+  background-color: transparent;
+}
+
+.rentalprices__table .btn {
+  padding: 9px 55px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+}
+
+.rentalprices__list {
+  overflow-y: auto;
+}
+
+.rentalprices__btn.btn {
+  width: 100%;
   margin-top: 50px;
 }
 
@@ -2387,6 +2488,18 @@ h1 {
   .topsingle {
     margin-top: 10px;
   }
+  .home .forrent__item {
+    width: calc(50% - 4px);
+  }
+  .home h4.forrent__item-title {
+    font-size: 18px;
+    margin-top: 3px;
+    margin-bottom: 12px;
+    line-height: 1;
+  }
+  .forrent .btn {
+    font-size: 12px;
+  }
 }
 .header__logo_mob {
   display: none;
@@ -2586,6 +2699,26 @@ h1 {
   .featuresofserv__third-txt {
     padding-right: 20px;
   }
+  .rentalprices {
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .rentalprices__table th,
+  .rentalprices__table td:first-child,
+  .rentalprices__table td,
+  .rentalprices__table td:last-child {
+    padding: 5px 20px;
+  }
+  .rentalprices__table .btn {
+    padding: 10px 25px;
+  }
+  .rentalprices__btn.btn {
+    width: 100%;
+    margin-top: 20px;
+  }
 }
 @media (max-width: 600px) {
   .featuresofserv__third-txt {
@@ -2710,6 +2843,11 @@ h1 {
   .breadcrumbs {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .trustus__slider,
+  .featuresofserv__slider,
+  .featuresofserv__list {
+    width: 100%;
   }
 }
 .chardesc__char-item-val {
@@ -2894,5 +3032,21 @@ h1 {
   body {
     font-size: 16px;
     line-height: 20px;
+  }
+  .header__phone {
+    font-size: 18px;
+  }
+  .header__mail-desc {
+    font-size: 11px;
+  }
+  .header__phone-desc {
+    font-size: 10px;
+  }
+  .header__logo-img a,
+  .footer__logo-img a {
+    width: 100px;
+  }
+  .home .forrent__item {
+    width: 100%;
   }
 }
