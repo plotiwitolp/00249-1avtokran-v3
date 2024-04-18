@@ -46,12 +46,16 @@
     });
     // end
     // start
-    $('.trustus__list').slick({
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      prevArrow: $('.trustus__slider-prev'),
-      nextArrow: $('.trustus__slider-next'),
+    $('.trustus__list').each(function () {
+      const $this = $(this);
+      const $slider = $this.closest('.trustus__slider');
+      $this.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: $slider.find('.trustus__slider-prev'),
+        nextArrow: $slider.find('.trustus__slider-next'),
+      });
     });
     // end
     // start

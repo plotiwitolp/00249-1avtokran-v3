@@ -5,11 +5,23 @@
 <!-- END "Хлебные крошки" -->
 
 <!-- START "Какие есть вакансии" -->
-<div class="test">
+<div class="vacancies">
     <div class="container">
-        <div class="test__inner">
+        <div class="vacancies__inner">
             <h1>Какие есть вакансии</h1>
-            <div class="test__list">
+            <div class="vacancies__list">
+
+                <?php for ($i = 0; $i < 9; $i++) { ?>
+                    <div class="vacancies__item">
+                        <h4>Машинист автокрана</h4>
+                        <div class="vacancies__item-img">
+                            <img src="./assets/img/vacancies__item-img.webp" alt="vacancy <?= $i + 1 ?>">
+                        </div>
+                        <a href="./vacancy.php" class="vacancies__item-btn">
+                            <div class="btn btn_arrow">Узнать подробней</div>
+                        </a>
+                    </div>
+                <?php } ?>
             </div>
         </div>
     </div>
@@ -17,15 +29,7 @@
 <!-- END "Какие есть вакансии" -->
 
 <!-- START "Контакты" -->
-<div class="test">
-    <div class="container">
-        <div class="test__inner">
-            <h2>Контакты</h2>
-            <div class="test__list">
-            </div>
-        </div>
-    </div>
-</div>
+<?php require_once './templates/contacts.php'; ?>
 <!-- END "Контакты" -->
 
 <?php require_once './footer.php'; ?>

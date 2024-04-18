@@ -13,7 +13,7 @@ $_PARENT_URL = '/00249-1avtokran-v3';
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/libs/fancybox/jquery.fancybox.min.css?v=2" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="./assets/libs/slick/slick.min.css?v=2" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="./assets/css/style.css?v=2">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>

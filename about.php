@@ -1,32 +1,27 @@
 <?php require_once './header.php'; ?>
 
-<!-- START "Хлебные крошки" -->
-<?php require_once './templates/breadcrumbs.php'; ?>
-<!-- END "Хлебные крошки" -->
+<div class="about-page">
 
-<!-- START "О компании" -->
-<?php require_once './templates/aboutshort.php'; ?>
-<!-- END "О компании" -->
+    <!-- START "Хлебные крошки" -->
+    <?php require_once './templates/breadcrumbs.php'; ?>
+    <!-- END "Хлебные крошки" -->
 
-<!-- START "Наши преимущества" -->
-<?php require_once './templates/advantagesshort.php'; ?>
-<!-- END "Наши преимущества" -->
+    <!-- START "О компании" -->
+    <?php require_once './templates/aboutshort.php'; ?>
+    <!-- END "О компании" -->
 
-<!-- START "ЭКСКЛЮЗИВНАЯ АКЦИЯ!" -->
-<?php require_once './templates/exprom.php'; ?>
-<!-- END "ЭКСКЛЮЗИВНАЯ АКЦИЯ!" -->
+    <!-- START "Наши преимущества" -->
+    <?php require_once './templates/advantagesshort.php'; ?>
+    <!-- END "Наши преимущества" -->
 
-<!-- START "Контакты" -->
-<div class="test">
-    <div class="container">
-        <div class="test__inner">
-            <h2>Контакты</h2>
-            <div class="test__list">
-            </div>
-        </div>
-    </div>
+    <!-- START "ЭКСКЛЮЗИВНАЯ АКЦИЯ!" -->
+    <?php require_once './templates/exprom.php'; ?>
+    <!-- END "ЭКСКЛЮЗИВНАЯ АКЦИЯ!" -->
+
+    <!-- START "Контакты" -->
+    <?php require_once './templates/contacts.php'; ?>
+    <!-- END "Контакты" -->
+
 </div>
-<!-- END "Контакты" -->
-
 
 <?php require_once './footer.php'; ?>
