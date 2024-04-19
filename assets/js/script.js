@@ -183,6 +183,70 @@
     }
     disableSlick('.home .forrent__list');
     // end
+    // start
+    $('.home .top .btn').on('click', function () {
+      $('.popupform').addClass('active');
+    });
+    $('.catalogtech-page .top .btn').on('click', function () {
+      $('.popupform').addClass('active');
+    });
+    $('.usluga .top .btn').on('click', function () {
+      $('.popupform').addClass('active');
+    });
+    $('.catalogtech2-page .top .btn').on('click', function () {
+      $('.popupform').addClass('active');
+    });
+    $('.exprom .btn').on('click', function () {
+      $('.popupform').addClass('active');
+    });
+    $('.topsingle .btn').on('click', function () {
+      $('.popupform').addClass('active');
+    });
+    $('.rentalprices .btn').on('click', function () {
+      $('.popupform').addClass('active');
+    });
+    $('.catalogchar .btn').on('click', function () {
+      $('.popupform').addClass('active');
+    });
+    $('.ourwork .btn').on('click', function () {
+      $('.popupform').addClass('active');
+    });
+    $('footer.footer').on('click', function () {
+      $('.popupform').addClass('active');
+    });
+
+    $('.popupform__close').on('click', function () {
+      $('.popupform').removeClass('active');
+    });
+    $('.popupform__layer').on('click', function () {
+      $('.popupform').removeClass('active');
+    });
+    // end
+    // start
+    const btnUp = {
+      el: document.querySelector('.btn-up'),
+      show() {
+        this.el.classList.remove('btn-up_hide');
+      },
+      hide() {
+        this.el.classList.add('btn-up_hide');
+      },
+      addEventListener() {
+        window.addEventListener('scroll', () => {
+          const scrollY = window.scrollY || document.documentElement.scrollTop;
+          scrollY > 400 ? this.show() : this.hide();
+        });
+        document.querySelector('.btn-up').onclick = () => {
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth',
+          });
+        };
+      },
+    };
+    btnUp.addEventListener();
+    // end
     // END document ready
   });
 })(jQuery);

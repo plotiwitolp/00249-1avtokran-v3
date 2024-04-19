@@ -1,43 +1,47 @@
 <?php require_once './header.php'; ?>
 
-<!-- START "Хлебные крошки" -->
-<?php require_once './templates/breadcrumbs.php'; ?>
-<!-- END "Хлебные крошки" -->
+<div class="usluga">
 
-<!-- START TOP -->
-<?php require_once './templates/top2.php'; ?>
-<!-- END TOP -->
+    <!-- START "Хлебные крошки" -->
+    <?php require_once './templates/breadcrumbs.php'; ?>
+    <!-- END "Хлебные крошки" -->
 
-<!-- START "Наши преимущества" -->
-<?php require_once './templates/advantages.php'; ?>
-<!-- END "Наши преимущества" -->
+    <!-- START TOP -->
+    <?php require_once './templates/top2.php'; ?>
+    <!-- END TOP -->
 
-<!-- START "Особенности оказания услуги" -->
-<?php require_once './templates/featuresofserv.php'; ?>
-<!-- END "Особенности оказания услуги" -->
+    <!-- START "Наши преимущества" -->
+    <?php require_once './templates/advantages.php'; ?>
+    <!-- END "Наши преимущества" -->
 
-<!-- START "Какая спецтехника понадобиться в работе" -->
-<?php require_once './templates/forrent2.php'; ?>
-<!-- END "Какая спецтехника понадобиться в работе" -->
+    <!-- START "Особенности оказания услуги" -->
+    <?php require_once './templates/featuresofserv.php'; ?>
+    <!-- END "Особенности оказания услуги" -->
 
-<!-- START "Какие услуги мы оказываем при помощи автокранов" -->
-<?php require_once './templates/service3.php'; ?>
-<!-- END "Какие услуги мы оказываем при помощи автокранов" -->
+    <!-- START "Какая спецтехника понадобиться в работе" -->
+    <?php require_once './templates/forrent2.php'; ?>
+    <!-- END "Какая спецтехника понадобиться в работе" -->
 
-<!-- START "ЭКСКЛЮЗИВНАЯ АКЦИЯ!" -->
-<?php require_once './templates/exprom.php'; ?>
-<!-- END "ЭКСКЛЮЗИВНАЯ АКЦИЯ!" -->
+    <!-- START "Какие услуги мы оказываем при помощи автокранов" -->
+    <?php require_once './templates/service3.php'; ?>
+    <!-- END "Какие услуги мы оказываем при помощи автокранов" -->
 
-<!-- START "Города и районы в которых мы работаем" -->
-<?php require_once './templates/cities.php'; ?>
-<!-- END "Города и районы в которых мы работаем" -->
+    <!-- START "ЭКСКЛЮЗИВНАЯ АКЦИЯ!" -->
+    <?php require_once './templates/exprom.php'; ?>
+    <!-- END "ЭКСКЛЮЗИВНАЯ АКЦИЯ!" -->
 
-<!-- START "О компании" -->
-<?php require_once './templates/aboutshort.php'; ?>
-<!-- END "О компании" -->
+    <!-- START "Города и районы в которых мы работаем" -->
+    <?php require_once './templates/cities.php'; ?>
+    <!-- END "Города и районы в которых мы работаем" -->
 
-<!-- START "Фото с оказанием услуги" -->
-<?php require_once './templates/ourtech2.php'; ?>
-<!-- END "Фото с оказанием услуги" -->
+    <!-- START "О компании" -->
+    <?php require_once './templates/aboutshort.php'; ?>
+    <!-- END "О компании" -->
+
+    <!-- START "Фото с оказанием услуги" -->
+    <?php require_once './templates/ourtech2.php'; ?>
+    <!-- END "Фото с оказанием услуги" -->
+
+</div>
 
 <?php require_once './footer.php'; ?>

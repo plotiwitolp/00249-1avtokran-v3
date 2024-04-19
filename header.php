@@ -86,4 +86,3 @@ $_PARENT_URL = '/00249-1avtokran-v3';
                 </div>
             </div>
         </div>
-        <!-- END header -->

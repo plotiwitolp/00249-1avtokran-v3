@@ -1,4 +1,3 @@
-<!-- START footer -->
 </div>
 
 <footer class="footer">
@@ -69,6 +68,29 @@
         </div>
     </div>
 </footer>
+
+<div class="popupform">
+    <div class="popupform__inner">
+        <div class="popupform__close"></div>
+        <form class="popupform__body">
+            <h2>Получите консультацию<br> по аренде техники</h2>
+            <div class="popupform__info">для получения консультации укажите ваше имя и номер телефона, наш менеджер свяжется с вами в ближайшее время</div>
+            <div class="popupform__form">
+                <div class="popupform__form-first">
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="tel" placeholder="+7 (...) ... - .. - ..">
+                </div>
+                <div class="popupform__form-second">
+                    <input class="btn btn_input" type="submit" value="Заказать консультацию">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="popupform__layer"></div>
+</div>
+
+<div class="btn-up btn-up_hide">наверх</div>
+
 <script src="./assets/libs/jquery/jquery-3.7.1.min.js?v=2" defer></script>
 <script src="./assets/libs/slick/slick.min.js?v=2" defer></script>
 <script src="./assets/libs/fancybox/jquery.fancybox.min.js?v=2" defer></script>
